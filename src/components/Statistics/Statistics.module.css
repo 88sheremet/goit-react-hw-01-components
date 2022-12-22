@@ -5,7 +5,7 @@
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   background-color: #fff;
   width: 370px;
 }
@@ -27,15 +27,18 @@
   padding: 10px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(44, 201, 148);
   width: 60px;
+}
+
+.item:nth-child(2n + 1) {
+  background-color: rgb(28, 124, 36);
+}
+.item:nth-child(2n) {
+  background-color: rgb(201, 172, 44);
 }
 
 .label {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-}
-
-.percentage {
 }
