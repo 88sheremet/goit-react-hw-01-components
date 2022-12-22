@@ -7,40 +7,37 @@
 }
 
 .friends__list {
-    padding: 15px;
+  padding: 15px;
   display: flex;
-
   flex-direction: column;
   row-gap: 15px;
 }
 
 .friends__item {
-    display: flex;
-    align-items: center;
-    row-gap: 10px;
+  display: flex;
+  align-items: center;
+  row-gap: 10px;
   width: 200px;
   box-shadow: 0 0 10px rgb(146, 145, 145);
   padding-left: 10px;
 }
 
-.status{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-right: 10px;
-   
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
-
-.true{
-    background-color: green;
+.true {
+  background-color: green;
 }
 
-.false{
-    background-color: red;
+.false {
+  background-color: red;
 }
 
-.avatar{
-    padding: 10px 0;
-    margin-right: 10px;
+.avatar {
+  padding: 10px 0;
+  margin-right: 10px;
 }

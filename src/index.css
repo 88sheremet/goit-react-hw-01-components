@@ -15,8 +15,7 @@ body {
   align-content: center;
   padding: 30px;
   background-color: rgb(215, 223, 226);
-  font-size: 700;
-    font-weight: 30px;
+
 }
 
 code {
@@ -24,16 +23,16 @@ code {
     monospace;
 }
 
-ul{
+ul {
   list-style: none;
   margin: 0;
 }
 
-p{
+p {
   margin: 0;
 }
 
-h2{
+h2 {
   display: block;
   margin: 0;
 }
